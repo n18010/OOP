@@ -11,7 +11,7 @@ public class IDCard extends Product {
     }
     @Override
     public void use() {
-        System.out.println(owner + "のカードを使いました");
+        System.out.println(owner + "のカードを使いました。");
     }
     public String getOwner() {
         return owner;
